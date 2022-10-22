@@ -1,0 +1,6 @@
+<div class="nav-menu">
+    <button style="float: left"> Home </button>
+    <button style="float: right"> Profile </button>
+    <a type="button" routerLink="/login" style="float: right"> LogIn </a>
+    <button *ngIf="userIsAuthenticated" style="float: right"> Logout </button>
+</div>
