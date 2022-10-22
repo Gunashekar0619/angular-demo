@@ -1,0 +1,13 @@
+.login-container {
+    margin: 10% 40%;
+    width: 200px;
+}
+.login-container > div {
+    margin-bottom: 10px;
+}
+.login-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+

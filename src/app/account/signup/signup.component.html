@@ -1,0 +1,14 @@
+<div class="signup-container">
+    <div class="username">
+        <label> UserName </label> <br/>
+        <input [(ngModel)]="userName" placeholder="Enter UserName">
+    </div>
+    <div class="password">
+        <label> Password </label> <br/>
+        <input placeholder="Enter Password" type="password" [value]="password"/>
+    </div>
+    <div class="signup-footer">
+        <button (click)="onSignup()"> Sign Up </button>
+        <a type="button" routerLink="/login"> Login </a>
+    </div>
+</div>

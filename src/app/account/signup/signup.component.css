@@ -1,0 +1,13 @@
+.signup-container {
+    margin: 10% 40%;
+    width: 200px;
+}
+.signup-container > div {
+    margin-bottom: 10px;
+}
+.signup-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
